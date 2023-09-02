@@ -7,7 +7,35 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="resets.css" />
   </head>
+
   <body>
-    <h1>PassLockWizard</h1>
+    <main class="password__main">
+      <div class="container password__container">
+        <h1>Password Generator</h1>
+        <div class="generated__password"></div>
+        <form>
+          <div>
+            <label for="length">Password-length:</label>
+            <input type="text" id="length" />
+          </div>
+          <div>
+            <label for="uppercase">Include Uppercase letters:</label
+            ><input id="uppercase" type="checkbox" />
+          </div>
+          <div>
+            <label for="lowercase">Include lowercase letters:</label
+            ><input id="lowercase" type="checkbox" />
+          </div>
+          <div>
+            <label for="numbers">Include Numbers:</label
+            ><input id="numbers" type="checkbox" />
+          </div>
+          <div>
+            <label for="symbols">Include Symbols:</label
+            ><input id="symbols" type="checkbox" />
+          </div>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
