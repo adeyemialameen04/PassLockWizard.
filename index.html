@@ -13,7 +13,7 @@
       <div class="container password__container">
         <h1>Password Generator</h1>
         <div class="generated__password"></div>
-        <form>
+        <form id="form">
           <div>
             <label for="length">Password-length:</label>
             <input type="text" id="length" />
@@ -34,8 +34,10 @@
             <label for="symbols">Include Symbols:</label
             ><input id="symbols" type="checkbox" />
           </div>
+          <button type="submit">Generate Password</button>
         </form>
       </div>
     </main>
   </body>
+  <script src="app.js"></script>
 </html>

@@ -38,3 +38,13 @@
     background-color: hsl(263, 88%, 30%);
     margin-bottom: 1.7rem;
 }
+
+.password__container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.password__container button {
+    margin-top: 1rem;
+    align-self: center;
+}
